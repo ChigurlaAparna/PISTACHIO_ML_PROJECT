@@ -1,134 +1,100 @@
-# 🌰 PISTACHIO_ML_PROJECT
+# 🌰 Pistachio Classification System
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,8,16&height=200&section=header&text=PISTACHIO%20ML%20PROJECT&fontSize=40&fontAlignY=35&desc=Machine%20Learning%20Pistachio%20Classification&descSize=16&descAlignY=52" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,0,12,30,38&height=180&section=header&text=Pistachio%20ML%20Project&fontSize=48&fontAlignY=38&desc=Machine%20Learning%20Classification%20System&descSize=18&descAlignY=52" />
 </p>
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/ChigurlaAparna/PISTACHIO_ML_PROJECT">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ChigurlaAparna&repo=PISTACHIO_ML_PROJECT&theme=tokyo-night&border_color=6C5CE7&border_radius=10" />
+  </a>
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-</div>
-
----
-
-## 📋 Table of Contents
-
-- [About The Project](#about-the-project)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Model Details](#model-details)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [License](#license)
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ChigurlaAparna/PISTACHIO_ML_PROJECT?style=flat-square&color=6C5CE7" />
+  <img src="https://img.shields.io/github/forks/ChigurlaAparna/PISTACHIO_ML_PROJECT?style=flat-square&color=00D9FF" />
+</p>
 
 ---
 
-## 🎯 About The Project
+<h3 align="center">
+  🎯 Machine Learning • 🌾 Agricultural AI • 📊 Data Science
+</h3>
 
-A machine learning web application that classifies pistachio varieties as **Kirmizi** or **Siirt** using a **Gradient Boosting Classifier**. This project demonstrates end-to-end ML pipeline implementation from data preprocessing to model deployment.
-
-### Key Highlights
-
-- 🎯 **95%+ Classification Accuracy** using Gradient Boosting Classifier
-- 📊 **Real-time Predictions** via interactive web interface
-- 🔧 **Hyperparameter Tuned** for optimal performance
-- 📈 **Feature Engineering** on morphological measurements
-- 🚀 **Production Ready** deployment architecture
-
----
-
-## 🛠 Tech Stack
-
-| Category | Technologies |
-|----------|-------------|
-| **Language** | Python 3.x |
-| **ML Framework** | Scikit-learn |
-| **Web Framework** | Flask / Streamlit |
-| **Data Processing** | Pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn |
-| **Model Serialization** | Pickle (.pkl files) |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+</p>
 
 ---
 
-## ✨ Features
+## 🔍 About
 
-- ✅ Morphological feature-based classification
-- ✅ Gradient Boosting Classifier for high accuracy
-- ✅ Label encoding for categorical outputs
-- ✅ Feature scaling for improved model performance
-- ✅ Interactive web application interface
-- ✅ Real-time prediction capabilities
-- ✅ Comprehensive model evaluation metrics
+> A machine learning web application that classifies pistachio varieties as **Kirmizi** or **Siirt** using a **Gradient Boosting Classifier**.
 
 ---
 
-## 🤖 Model Details
+## ⭐ Key Features
 
-### Dataset Features
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🌟 Gradient Boosting Classifier    │  🎯 95%+ Accuracy         │
+├─────────────────────────────────────────────────────────────────┤
+│  📊 Real-time Predictions           │  🔧 Hyperparameter Tuned   │
+├─────────────────────────────────────────────────────────────────┤
+│  📈 Morphological Features         │  🚀 Production Ready      │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-The model uses morphological measurements including:
-- Area
-- Perimeter
-- Major Axis Length
-- Minor Axis Length
-- Eccentricity
-- Solidity
-- Convex Area
-- Extent
-- Roundness
-- Aspect Ratio
+---
 
-### Algorithm
+## 🧠 Model Architecture
 
-| Parameter | Value |
-|-----------|-------|
-| **Model** | Gradient Boosting Classifier |
-| **Optimization** | Hyperparameter Tuning |
+| Component | Technology |
+|-----------|------------|
+| **Algorithm** | Gradient Boosting Classifier |
+| **Features** | Morphological Measurements |
 | **Scaling** | StandardScaler |
 | **Encoding** | LabelEncoder |
+| **Deployment** | Flask/Streamlit Web App |
 
 ---
 
-## 🚀 Getting Started
+## 📊 Dataset Features
 
-### Prerequisites
+| Feature | Description |
+|---------|-------------|
+| Area | Pixel area of the region |
+| Perimeter | Perimeter of the region |
+| Major Axis Length | Length of major axis |
+| Minor Axis Length | Length of minor axis |
+| Eccentricity | Measure of aspect ratio |
+| Solidity | Area ratio to convex hull |
+| Roundness | Circularity measure |
+
+---
+
+## 🚀 Quick Start
 
 ```bash
-Python 3.8+
-pip
-```
-
-### Installation
-
-1. **Clone the repository**
-```bash
+# Clone repository
 git clone https://github.com/ChigurlaAparna/PISTACHIO_ML_PROJECT.git
 cd PISTACHIO_ML_PROJECT
-```
 
-2. **Install dependencies**
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-3. **Run the application**
-```bash
-# If using Flask
+# Run application
 python app.py
-
-# If using Streamlit
+# OR
 streamlit run app.py
 ```
 
-4. **Access the application**
-Open your browser and navigate to `http://localhost:5000` or `http://localhost:8501`
+**Access:** `http://localhost:5000` or `http://localhost:8501`
 
 ---
 
@@ -136,67 +102,36 @@ Open your browser and navigate to `http://localhost:5000` or `http://localhost:8
 
 ```
 PISTACHIO_ML_PROJECT/
-├── app.py                          # Web application entry point
-├── pistachio_gradient_boosting_model.pkl  # Trained model
-├── pistachio_label_encoder.pkl      # Label encoder
-├── pistachio_scaler.pkl            # Feature scaler
-├── requirements.txt                 # Python dependencies
-├── runtime.txt                     # Python runtime version
-└── README.md                       # Project documentation
+├── app.py                              # Web application
+├── pistachio_gradient_boosting_model.pkl   # Trained model
+├── pistachio_label_encoder.pkl         # Label encoder
+├── pistachio_scaler.pkl               # Feature scaler
+├── requirements.txt                    # Dependencies
+└── runtime.txt                       # Python version
 ```
 
 ---
 
-## 📊 Results
-
-### Performance Metrics
+## 📈 Performance
 
 | Metric | Score |
 |--------|-------|
-| Accuracy | 95%+ |
-| Precision | High |
-| Recall | High |
-| F1-Score | High |
-
-### Classification Categories
-
-- **Kirmizi** - Premium pistachio variety
-- **Siirt** - Premium pistachio variety
+| ✅ Accuracy | 95%+ |
+| ✅ Precision | High |
+| ✅ Recall | High |
+| ✅ F1-Score | High |
 
 ---
 
-## 🎓 Learning Outcomes
+## 📦 Output Classes
 
-- Data preprocessing and feature engineering
-- Model selection and hyperparameter tuning
-- Flask/Streamlit web application development
-- Model serialization and deployment
-- End-to-end ML pipeline implementation
-
----
-
-## 👤 Author
-
-**Aparna Chigurla**
-
-- GitHub: [@ChigurlaAparna](https://github.com/ChigurlaAparna)
-- LinkedIn: [Aparna Chigurla](https://www.linkedin.com/in/aparna-chigurla-586b69369)
-- Email: chigurlaaparna1611@gmail.com
+| Class | Description |
+|-------|-------------|
+| 🌰 **Kirmizi** | Premium pistachio variety |
+| 🌰 **Siirt** | Premium pistachio variety |
 
 ---
 
-## 🙏 Acknowledgments
-
-- UCI Machine Learning Repository for the Pistachio Dataset
-- Scikit-learn community for excellent ML tools
-- Open source ML community
-
----
-
-<div align="center">
-
-⭐ Star this repository if you found it helpful!
-
-📌 Created with ❤️ by [Aparna Chigurla](https://github.com/ChigurlaAparna)
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=footer&color=gradient&customColorList=6,0,12,30,38" />
+</p>
